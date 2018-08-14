@@ -18,7 +18,7 @@
   2.2 如还有其他文案就继续往```<p></p>```标签中添加相应的文字就行了。  
   2.3 最终生成 .ttf 和 .woff文件时 能自动识别重复的文字。不用自己做文字去重工作。
 3. 安装依赖 ``` npm install ```
-4. 运行 ``` npm dev ``` 或者 ``` gulp dev ```
-5. 查看页面 [http://localhost/html/index.html](http://localhost/html/index.html) 页面上的效果就是字体样式。
-6. 运行 ``` npm build ```
+4. 运行 ``` npm run dev ``` 或者 ``` gulp dev ```
+5. 查看页面 [http://localhost:8888/html/index.html](http://localhost:8888/html/index.html) 页面上的效果就是字体样式。
+6. 运行 ``` npm run build ``` 或者 ``` gulp build ```
 7. 将 build/目录下的 .ttf .woff 文件拷贝至自己的项目就可以使用字体文件了。
