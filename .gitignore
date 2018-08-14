@@ -1,0 +1,9 @@
+# IDE
+.DS_Store
+.idea
+.project
+.vscode
+
+# dependencies
+node_modules/
+~/node_modules/

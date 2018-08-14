@@ -1,0 +1,29 @@
+{
+  "name": "fontspider",
+  "version": "1.0.0",
+  "description": "特殊字体文件生成",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphawillian/fontspider.git"
+  },
+  "keywords": [
+    "font-family",
+    "font-spider"
+  ],
+  "author": "zhangguoxin1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphawillian/fontspider/issues"
+  },
+  "homepage": "https://github.com/alphawillian/fontspider#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp-font-spider": "^0.3.6",
+    "gulp-sequence": "^1.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+/*声明 WebFont*/
+@font-face {
+  font-family: 'myfont';
+  /* src: url('../font/myfont.eot'); */
+  src:
+    /* url('../font/myfont.eot?#font-spider') format('embedded-opentype'), */
+    url('../font/myfont.woff') format('woff'),
+    url('../font/myfont.ttf') format('truetype');
+    /* url('../font/myfont.svg') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body p{
+  font-family: 'myfont';
+  font-size: 24px;
+}
